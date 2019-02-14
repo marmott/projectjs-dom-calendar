@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+	background-color:  #1d1e22;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	min-height: 80vh;
+	
+}
+main{
+	background-color:#d4d4dc;
+	flex-basis: 780px;
+	color:#393f4d;
+
+}
+.current-date{
+	background:#feda6a;
+}
+.table-calendar{
+	table-layout: fixed;
+	width: 100%;
+	border-spacing: 0;  
+}
+.daycell{
+	text-align: center;
+	vertical-align: middle;
+
+}
+.dayweeks{
+	text-align: center;
+	vertical-align: middle;
+	background:#393f4d;
+	color:#feda6a;
+}
+button{
+	background:#393f4d;
+	color:#feda6a;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	padding: 14px;
+}
+.rightbtn{
+	float:left;
+}
+.leftbtn{
+	float: right;
+}
+select {
+	margin-top: 15px;
+}
+#selectYear, #selectMonth, option{
+	text-align: center;
+	background: #feda6a;
+	color:#393f4d;
+	font-family: 'Montserrat';
+	font-weight: 700;
+
+}
+.yearLine{
+	background: #393f4d;
+	color:#feda6a;
+	text-align: center;
+	vertical-align: middle;
+	padding: 15px;
+}
